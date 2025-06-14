@@ -104,7 +104,7 @@ body {
   align-items: center;
   gap: 5px;
   padding-inline: 15px;
-  padding-block: 9px;
+  padding-block: 11px;
   border-bottom: 1px solid grey;
 }
 
@@ -180,7 +180,7 @@ body {
   width: 90%;
   display: flex;
   border-radius: 10px;
-  height: 90%;
+  height: 95%;
 }
 
 .current-chat {
@@ -316,6 +316,10 @@ input:focus {
   border-radius: 4px;
 }
 
+.sections {
+  padding-block: 20px;
+}
+
 .send-box {
   display: flex;
   width: 80%;
@@ -370,17 +374,14 @@ input:focus {
 
 
 .sidebar-container {
-  background: rgba(255, 255, 255, 0.07);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-  border-radius: 20px;
   padding: 20px;
 }
 
 /* User Card */
 .user-card {
   text-align: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
 }
 
 .avatar-wrapper {
@@ -419,6 +420,7 @@ input:focus {
 /* Section Headers */
 .section {
   margin-bottom: 15px;
+  padding-block: 5px;
 }
 
 .section-header {
@@ -427,8 +429,6 @@ input:focus {
   align-items: center;
   cursor: pointer;
   font-weight: 500;
-  background: rgba(255, 255, 255, 0.05);
-  padding: 8px 10px;
   border-radius: 10px;
 }
 
@@ -443,9 +443,9 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.05);
-  padding: 8px 10px;
+  padding: 7px 5px;
   border-radius: 10px;
+  border-bottom: 1px solid grey;
 }
 
 .file-item img {
