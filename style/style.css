@@ -78,18 +78,18 @@ aside, section {
 
 
 body {
-    background: linear-gradient(120deg, #1e1e2f, #ff0066, #3300ff);
-    background-size: 400% 400%;
-    animation: gradientMove 10s ease infinite;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: white;
-    font-family: "Mona Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+  background: linear-gradient(120deg, #1e1e2f, #ff0066, #3300ff);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  font-family: "Mona Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .caption {
@@ -184,7 +184,7 @@ body {
 }
 
 .current-chat {
-  background-color: #3f4c6e;
+  background-color: rgba(70, 48, 81, 0.466);
 }
 
 #dp {
@@ -219,7 +219,7 @@ h2 {
   background: transparent;
   border: none;
   font-size: 18px;
-  color: white;
+  color: #d5334e;
   cursor: pointer;
 }
 
@@ -253,10 +253,10 @@ input:focus {
 }
 
 .media {
-  background-color: none;
+  background-color: transparent;
   border: none;
   outline: none;
-  color: #f80d38;
+  color: #d5334e;
 }
 
 .menu {
@@ -458,6 +458,28 @@ input:focus {
   color: white;
   font-size: 16px;
   cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #3300ff;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0066;
 }
 
 
